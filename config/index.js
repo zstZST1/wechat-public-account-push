@@ -41,10 +41,10 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "小何", "year": "2001", "date": "05-27"},
+        {"type": "*生日", "name": "小何", "year": "2001", "date": "06-09"},
         {"type": "节日", "name": "纪念日", "year": "2017", "date": "04-25"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "小张", "year": "2001", "date": "06-09"},
+        {"type": "生日", "name": "小张", "year": "2001", "date": "05-27"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -54,15 +54,21 @@ export const config = {
     },
     {
       name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      id: "oIhbX5uXTXEt2pTNWUI_eF5p-3l8",
+      useTemplateId: "eCKaz2OMjTk2aMaEBnSa_aqtzsOP21Kqs_vmYpH-lco",
+      province: "黑龙江",
+      city: "哈尔滨",
+      horoscopeDate: '05-31',
+      horoscopeDateType: '今日',
+      openUrl: "",
+      festivals: [
+        {"type": "*生日", "name": "小何", "year": "2001", "date": "06-09"},
+        {"type": "节日", "name": "纪念日", "year": "2017", "date": "04-25"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "小张", "year": "2001", "date": "05-27"},],
+      customizedDateList: [
+        {"keyword": "love_day", date: "2017-04-25"},
+      ]
     },
     {
       name: "老婆2",
